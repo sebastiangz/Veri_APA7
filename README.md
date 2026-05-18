@@ -1,6 +1,6 @@
-# APA Checker - Verificador y Corrector de Formato APA 7ª Edición
+# Veri_APA7 - Verificador y Corrector de Formato APA 7ª Edición
 
-Un skill/aditamentto que verifica y corrige automáticamente el formato APA (7ª edición) en documentos Markdown y repositorios Git.
+Un verificador/corrector automático de formato APA (7ª edición) para documentos Markdown y repositorios Git. Diseñado para ser usado de forma independiente o como skill/plugin para LLMs (Claude, ChatGPT, Gemini, etc.).
 
 ## 🎯 Características
 
@@ -13,30 +13,30 @@ Un skill/aditamentto que verifica y corrige automáticamente el formato APA (7ª
 
 ## 📦 Instalación
 
-### Opción 1: Usar como Skill Local de tu TOOL 
-
-1. Copia la carpeta `apa-checker-skill` a tu directorio de skills:
-   ```bash
-   cp -r Veri_APA7-skill ~/.TOOL/skills/
-   ```
-
-2. O clona desde el repositorio:
-   ```bash
-   git clone [URL_DEL_REPO] ~/.TOOL/skills/Veri_APA7-skill
-   ```
-
-3. Tu TOOL detectará automáticamente el skill cuando menciones APA, citas, o referencias académicas.
-
-### Opción 2: Uso Independiente
+### Opción 1: Uso Independiente (Recomendado)
 
 ```bash
-# Clonar o descargar
-git clone [[URL_DEL_REPO](https://github.com/sebastiangz/Veri_APA7/)] Veri_APA7-skill
-cd Veri_APA7-skill
+# Clonar el repositorio
+git clone https://github.com/sebastiangz/Veri_APA7.git
+cd Veri_APA7
 
 # El script no requiere dependencias adicionales (solo Python 3.7+)
 python scripts/Veri_APA7.py --help
 ```
+
+### Opción 2: Como Skill/Plugin para LLMs
+
+**Para Claude:**
+```bash
+# Copiar a directorio de skills de Claude
+cp -r Veri_APA7 ~/.claude/skills/
+```
+
+**Para otros LLMs:**
+- Consulta el archivo `SKILL.md` para instrucciones de integración
+- Adapta según las capacidades de tu LLM (ChatGPT, Gemini, etc.)
+
+Ver [INSTALACION.md](INSTALACION.md) para guía detallada.
 
 ## 🚀 Uso Rápido
 
@@ -166,7 +166,8 @@ python scripts/Veri_APA7.py --help
 
 ## 📚 Documentación
 
-- **[SKILL.md](SKILL.md)** - Instrucciones completas para tu TOOL
+- **[INSTALACION.md](INSTALACION.md)** - Guía rápida de instalación y configuración
+- **[SKILL.md](SKILL.md)** - Instrucciones para integración con LLMs
 - **[references/apa7_rules.md](references/apa7_rules.md)** - Guía detallada de reglas APA 7
 - **[references/examples.md](references/examples.md)** - Ejemplos de uso extensos
 
@@ -178,23 +179,61 @@ python scripts/Veri_APA7.py --help
 - Asume texto en español o inglés
 - Algunas correcciones complejas requieren revisión manual
 
+## 🧪 Testing
+
+El repositorio incluye archivos de prueba:
+
+```bash
+# Ejecutar prueba básica
+python scripts/Veri_APA7.py tests/ejemplo_test.md
+
+# Verificar resultados
+cat tests/ejemplo_test_APA_CORREGIDO.md
+cat REPORTE_APA.md
+```
+
 ## 🤝 Contribuir
 
 ¿Encontraste un error o quieres agregar una funcionalidad?
 
-1. Reporta issues con ejemplos específicos
-2. Sugiere mejoras en las reglas de verificación
-3. Comparte casos de uso interesantes
+1. Fork el repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit tus cambios (`git commit -am 'Agrega nueva funcionalidad'`)
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+5. Crea un Pull Request
+
+### Ideas de Contribución
+
+- Agregar soporte para más tipos de referencias (redes sociales, podcasts)
+- Mejorar la detección de citas narrativas vs. parentéticas
+- Implementar verificación de citas cruzadas
+- Agregar soporte para otros formatos de entrada (Word, LaTeX)
+- Crear interfaz gráfica (GUI)
 
 ## 📝 Licencia
 
 MIT License - Libre para uso académico y comercial
 
+Copyright (c) 2025 Sebastian Gonzalez
+
+Ver [LICENSE](LICENSE) para más detalles.
+
 ## 🔗 Referencias
 
 - [Manual APA 7ª Edición Oficial](https://apastyle.apa.org/)
 - [APA Style Blog](https://apastyle.apa.org/blog)
+- [Guía de Citación APA (Español)](https://normas-apa.org/)
+
+## 📞 Contacto
+
+- **Repositorio**: [https://github.com/sebastiangz/Veri_APA7](https://github.com/sebastiangz/Veri_APA7)
+- **Issues**: [https://github.com/sebastiangz/Veri_APA7/issues](https://github.com/sebastiangz/Veri_APA7/issues)
+- **Autor**: [@sebastiangz](https://github.com/sebastiangz)
+
+## ⭐ Agradecimientos
+
+Si este proyecto te fue útil, considera darle una estrella ⭐ en GitHub.
 
 ---
 
-**Creado para facilitar el trabajo académico y la investigación 🎓**
+**Creado para facilitar el trabajo académico y la investigación 🎓📚**
