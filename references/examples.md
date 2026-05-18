@@ -162,7 +162,7 @@ García, M., López, J. and Martínez, R. (2021). Advanced techniques. Journal o
 ### Comando:
 
 ```bash
-python scripts/apa_checker.py README.md
+python scripts/Veri_APA7.py README.md
 ```
 
 ### Salida (`README_APA_CORREGIDO.md`)
@@ -202,19 +202,19 @@ mi-proyecto/
 ### Comando para procesar todos:
 
 ```bash
-python scripts/apa_checker.py mi-proyecto/ --mode all
+python scripts/Veri_APA7.py mi-proyecto/ --mode all
 ```
 
 ### Comando para procesar solo README:
 
 ```bash
-python scripts/apa_checker.py mi-proyecto/ --mode readme
+python scripts/Veri_APA7.py mi-proyecto/ --mode readme
 ```
 
 ### Comando para procesar archivos específicos:
 
 ```bash
-python scripts/apa_checker.py mi-proyecto/ --mode specific --files introduccion.md metodologia.md
+python scripts/Veri_APA7.py mi-proyecto/ --mode specific --files introduccion.md metodologia.md
 ```
 
 ### Salida:
@@ -252,7 +252,7 @@ Resumen: 4/4 archivos procesados exitosamente
 ### Comando:
 
 ```bash
-python scripts/apa_checker.py https://github.com/usuario/tesis-doctoral.git --mode all
+python scripts/Veri_APA7.py https://github.com/usuario/documento.git --mode all
 ```
 
 ### Proceso:
@@ -312,7 +312,7 @@ python scripts/apa_checker.py https://github.com/usuario/tesis-doctoral.git --mo
 
 ---
 
-*Reporte generado por APA Checker - Skill para Claude*
+*Reporte generado por APA Checker - Skill para tu TOOL*
 ```
 
 ---
