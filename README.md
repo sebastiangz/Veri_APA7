@@ -214,7 +214,7 @@ cat REPORTE_APA.md
 
 MIT License - Libre para uso académico y comercial
 
-Copyright (c) 2025 Sebastián González
+Copyright (c) 2026 Sebastián González
 
 Ver [LICENSE](LICENSE) para más detalles.
 
