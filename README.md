@@ -26,10 +26,10 @@ python scripts/Veri_APA7.py --help
 
 ### Opción 2: Como Skill/Plugin para LLMs
 
-**Para Claude:**
+**Para IA LOCAL:**
 ```bash
 # Copiar a directorio de skills de Claude
-cp -r Veri_APA7 ~/.claude/skills/
+cp -r Veri_APA7 ~/.ollama/skills/
 ```
 
 **Para otros LLMs:**
@@ -214,7 +214,7 @@ cat REPORTE_APA.md
 
 MIT License - Libre para uso académico y comercial
 
-Copyright (c) 2025 Sebastian Gonzalez
+Copyright (c) 2025 Sebastián González
 
 Ver [LICENSE](LICENSE) para más detalles.
 
