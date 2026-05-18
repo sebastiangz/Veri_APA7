@@ -32,19 +32,19 @@ Este skill verifica y corrige automáticamente el formato APA 7ª edición en do
 
 ```bash
 # Procesar un archivo
-python /home/claude/apa-checker-skill/scripts/Veri_APA7.py archivo.md
+python /home/TOOL/Veri_APA7-skill/scripts/Veri_APA7.py archivo.md
 
 # Procesar README de un repo
-python /home/claude/apa-checker-skill/scripts/Veri_APA7.py /ruta/repo --mode readme
+python /home/TOOL/Veri_APA7-skill/scripts/Veri_APA7.py /ruta/repo --mode readme
 
 # Procesar todos los .md de un repo
-python /home/claude/apa-checker-skill/scripts/Veri_APA7.py /ruta/repo --mode all
+python /home/TOOL/Veri_APA7-skill/scripts/Veri_APA7.py /ruta/repo --mode all
 
 # Procesar archivos específicos
-python /home/claude/apa-checker-skill/scripts/Veri_APA7.py /ruta/repo --files archivo1.md archivo2.md
+python /home/TOOL/Veri_APA7-skill/scripts/Veri_APA7.py /ruta/repo --files archivo1.md archivo2.md
 
 # Clonar repo remoto y procesar
-python /home/claude/apa-checker-skill/scripts/Veri_APA7.py https://github.com/user/repo.git --mode all
+python /home/TOOL/Veri_APA7-skill/scripts/Veri_APA7.py https://github.com/user/repo.git --mode all
 ```
 
 ### Paso 2: Revisar el reporte
@@ -157,7 +157,7 @@ Smith, A., & Jones, B. (2021). Otro artículo. *Journal*, *5*, 12-20.
 ### Ejemplo 2: Repositorio Git
 
 ```bash
-python scripts/Veri_APA7.py https://github.com/sebastiangz/veri_apa7.git --mode all
+python scripts/Veri_APA7.py https://github.com/sebastiangz/Veri_APA7.git --mode all
 ```
 
 Procesa todos los archivos .md y genera versiones corregidas.
