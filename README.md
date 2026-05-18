@@ -13,11 +13,11 @@ Un skill/aditamentto que verifica y corrige automáticamente el formato APA (7ª
 
 ## 📦 Instalación
 
-### Opción 1: Usar como Skill Local de tu TOOL
+### Opción 1: Usar como Skill Local de tu TOOL 
 
 1. Copia la carpeta `apa-checker-skill` a tu directorio de skills:
    ```bash
-   cp -r apa-checker-skill ~/.TOOL/skills/
+   cp -r Veri_APA7-skill ~/.TOOL/skills/
    ```
 
 2. O clona desde el repositorio:
@@ -32,7 +32,7 @@ Un skill/aditamentto que verifica y corrige automáticamente el formato APA (7ª
 ```bash
 # Clonar o descargar
 git clone [[URL_DEL_REPO](https://github.com/sebastiangz/Veri_APA7/)] Veri_APA7-skill
-cd apa-checker-skill
+cd Veri_APA7-skill
 
 # El script no requiere dependencias adicionales (solo Python 3.7+)
 python scripts/Veri_APA7.py --help
@@ -53,25 +53,25 @@ Esto genera:
 ### Procesar todos los .md de un directorio
 
 ```bash
-python scripts/apa_checker.py /ruta/a/proyecto --mode all
+python scripts/Veri_APA7.py /ruta/a/proyecto --mode all
 ```
 
 ### Procesar solo README.md
 
 ```bash
-python scripts/apa_checker.py /ruta/a/proyecto --mode readme
+python scripts/Veri_APA7.py /ruta/a/proyecto --mode readme
 ```
 
 ### Procesar archivos específicos
 
 ```bash
-python scripts/apa_checker.py /ruta/a/proyecto --mode specific --files intro.md metodo.md
+python scripts/Veri_APA7.py /ruta/a/proyecto --mode specific --files intro.md metodo.md
 ```
 
 ### Procesar repositorio Git remoto
 
 ```bash
-python scripts/apa_checker.py https://github.com/usuario/repo.git --mode all
+python scripts/Veri_APA7.py https://github.com/usuario/repo.git --mode all
 ```
 
 ## 📋 Ejemplos
@@ -155,13 +155,13 @@ Cada ejecución genera `REPORTE_APA.md`:
 
 ```bash
 # Cambiar sufijo de archivos corregidos
-python scripts/apa_checker.py archivo.md --output-suffix "_CORREGIDO_APA"
+python scripts/Veri_APA7.py archivo.md --output-suffix "_CORREGIDO_APA"
 
 # No generar reporte
-python scripts/apa_checker.py archivo.md --no-report
+python scripts/Veri_APA7.py archivo.md --no-report
 
 # Ver todas las opciones
-python scripts/apa_checker.py --help
+python scripts/Veri_APA7.py --help
 ```
 
 ## 📚 Documentación
