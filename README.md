@@ -1,6 +1,6 @@
 # Veri_APA7 - Verificador y Corrector de Formato APA 7ª Edición
 
-Un verificador/corrector automático de formato APA (7ª edición) para documentos Markdown y repositorios Git. Diseñado para ser usado de forma independiente o como skill/plugin para LLMs (Claude, ChatGPT, Gemini, etc.).
+Un verificador/corrector automático de formato APA (7ª edición) para documentos Markdown y repositorios Git. Diseñado para ser usado de forma independiente o como skill/plugin para tus TOOLS ( LLMs cómo Ollama, ChatGPT, Gemini, etc.).
 
 ## 🎯 Características
 
