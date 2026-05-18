@@ -1,6 +1,6 @@
 # APA Checker - Verificador y Corrector de Formato APA 7ª Edición
 
-Un skill para Claude que verifica y corrige automáticamente el formato APA (7ª edición) en documentos Markdown y repositorios Git.
+Un skill/aditamentto que verifica y corrige automáticamente el formato APA (7ª edición) en documentos Markdown y repositorios Git.
 
 ## 🎯 Características
 
@@ -13,29 +13,29 @@ Un skill para Claude que verifica y corrige automáticamente el formato APA (7ª
 
 ## 📦 Instalación
 
-### Opción 1: Usar como Skill Local de Claude
+### Opción 1: Usar como Skill Local de tu TOOL
 
 1. Copia la carpeta `apa-checker-skill` a tu directorio de skills:
    ```bash
-   cp -r apa-checker-skill ~/.claude/skills/
+   cp -r apa-checker-skill ~/.TOOL/skills/
    ```
 
 2. O clona desde el repositorio:
    ```bash
-   git clone [URL_DEL_REPO] ~/.claude/skills/apa-checker-skill
+   git clone [URL_DEL_REPO] ~/.TOOL/skills/Veri_APA7-skill
    ```
 
-3. Claude detectará automáticamente el skill cuando menciones APA, citas, o referencias académicas.
+3. Tu TOOL detectará automáticamente el skill cuando menciones APA, citas, o referencias académicas.
 
 ### Opción 2: Uso Independiente
 
 ```bash
 # Clonar o descargar
-git clone [URL_DEL_REPO] apa-checker-skill
+git clone [[URL_DEL_REPO](https://github.com/sebastiangz/Veri_APA7/)] Veri_APA7-skill
 cd apa-checker-skill
 
 # El script no requiere dependencias adicionales (solo Python 3.7+)
-python scripts/apa_checker.py --help
+python scripts/Veri_APA7.py --help
 ```
 
 ## 🚀 Uso Rápido
@@ -43,7 +43,7 @@ python scripts/apa_checker.py --help
 ### Procesar un archivo individual
 
 ```bash
-python scripts/apa_checker.py mi_articulo.md
+python scripts/Veri_APA7.py mi_articulo.md
 ```
 
 Esto genera:
@@ -166,7 +166,7 @@ python scripts/apa_checker.py --help
 
 ## 📚 Documentación
 
-- **[SKILL.md](SKILL.md)** - Instrucciones completas para Claude
+- **[SKILL.md](SKILL.md)** - Instrucciones completas para tu TOOL
 - **[references/apa7_rules.md](references/apa7_rules.md)** - Guía detallada de reglas APA 7
 - **[references/examples.md](references/examples.md)** - Ejemplos de uso extensos
 
