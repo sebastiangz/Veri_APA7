@@ -28,8 +28,8 @@ python scripts/Veri_APA7.py --help
 
 **Para IA LOCAL:**
 ```bash
-# Copiar a directorio de skills de Claude
-cp -r Veri_APA7 ~/.ollama/skills/
+# Copiar a directorio de skills de tu TOOL
+cp -r Veri_APA7 ~/.TOOL/skills/
 ```
 
 **Para otros LLMs:**
