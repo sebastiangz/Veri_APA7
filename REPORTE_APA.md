@@ -35,4 +35,4 @@
 
 ---
 
-*Reporte generado por APA Checker - Skill para Claude*
+*Reporte generado por Veri_APA7 - Skill para TOOL*
